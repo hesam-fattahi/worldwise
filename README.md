@@ -6,7 +6,6 @@ You can download the starter files for the project from [here](https://github.co
 
 ## Table of Contents
 
-- Demo
 - Features
 - Installation
 - Usage
@@ -14,9 +13,6 @@ You can download the starter files for the project from [here](https://github.co
 - Contributing
 - License
 
-## Demo
-
-Check out the live demo of WorldWise: WorldWise Demo
 
 ## Features
 
