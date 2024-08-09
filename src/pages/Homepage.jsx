@@ -1,26 +1,15 @@
-import styles from "../styles/pages/Homepage.module.scss";
-import { Link } from "react-router-dom";
-import PageNav from "../components/PageNav";
+import Login from "../features/authentication/Login";
+import Hero from "../ui/Hero";
 
-export default function Homepage() {
+const Homepage = () => {
   return (
-    <main className={styles.homepage}>
-      <PageNav></PageNav>
-      <section>
-        <h1>
-          You travel the world.
-          <br />
-          WorldWise keeps track of your adventures.
-        </h1>
-        <h2>
-          A world map that tracks your footsteps into every city you can think
-          of. Never forget your wonderful experiences, and show your friends how
-          you have wandered the world.
-        </h2>
-        <Link to="/login" className="cta">
-          Start tracking now
-        </Link>
-      </section>
-    </main>
+    <div className="min-h-screen p-4 grid place-items-center bg-page-background bg-center bg-cover">
+      <main className="bg-zinc-300 bg-opacity-10 backdrop-filter backdrop-blur-sm p-4 rounded-lg shadow-lg max-w-4xl w-full grid grid-cols-1 divide-y divide-zinc-500 md:grid-cols-2 md:divide-x md:divide-y-0 md:p-8">
+        <Hero />
+        <Login />
+      </main>
+    </div>
   );
-}
+};
+
+export default Homepage;

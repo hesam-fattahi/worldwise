@@ -1,9 +1,9 @@
 import React, { createContext, useReducer } from "react";
 
 const FAKE_USER = {
-  name: "Jack",
-  email: "jack@example.com",
-  password: "phoenix1234",
+  name: "John Doe",
+  email: "john@example.com",
+  password: "john1234",
   avatar: "https://i.pravatar.cc/100?u=zz",
 };
 
@@ -33,6 +33,8 @@ const AuthProvider = ({ children }) => {
   const login = (email, password) => {
     if (email === FAKE_USER.email && password === FAKE_USER.password) {
       dispatch({ type: "login", payload: FAKE_USER });
+    } else {
+      console.error("Error logging the user in. Incorrect email or password.");
     }
   };
 

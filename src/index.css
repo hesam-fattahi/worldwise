@@ -1,0 +1,66 @@
+@import "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css";
+@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  @apply leading-normal;
+  @apply bg-zinc-700;
+  @apply text-zinc-50;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1 {
+  @apply text-3xl font-bold leading-tight;
+}
+h2 {
+  @apply text-2xl font-bold leading-snug;
+}
+h3 {
+  @apply text-xl font-semibold leading-normal;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
