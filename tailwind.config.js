@@ -5,7 +5,7 @@ const config = {
     extend: {
       backgroundImage: {
         "page-background":
-          "linear-gradient(rgba(36, 42, 46, 0.8), rgba(36, 42, 46, 0.8)), url('bg.jpg')",
+          "linear-gradient(rgba(36, 42, 46, 0.9), rgba(36, 42, 46, 0.9)), url('bg.jpg')",
       },
       animation: {
         rotation: "rotation 2s ease-in-out infinite",
