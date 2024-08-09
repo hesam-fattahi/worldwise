@@ -1,8 +1,8 @@
 import { Outlet } from "react-router-dom";
 
 import Tabs from "./Tabs";
-import Logo from "../../../public/ui/Logo";
-import Footer from "../../../public/ui/Footer";
+import Logo from "../../ui/Logo";
+import Footer from "../../ui/Footer";
 
 const Sidebar = ({ isOpen }) => {
   const baseStyles = "bg-zinc-700 flex-col justify-center md:justify-start";

@@ -1,8 +1,8 @@
 import useAppContext from "../../hooks/useAppContext";
 
 import CityItem from "./CityItem";
-import Loader from "../../components/ui/Loader";
-import Message from "../../components/ui/Message";
+import Loader from "../../ui/Loader";
+import Message from "../../ui/Message";
 
 const CityList = () => {
   const { cities, isLoading } = useAppContext();

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Logo({ small, className }) {
+const Logo = ({ small, className }) => {
   return (
     <Link to="/">
       <img
@@ -10,6 +10,6 @@ function Logo({ small, className }) {
       />
     </Link>
   );
-}
+};
 
 export default Logo;

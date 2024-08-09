@@ -2,10 +2,10 @@ import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useAppContext from "../../hooks/useAppContext";
 
+import CityDetailsRow from "./CityDetailsRow";
 import Loader from "../../ui/Loader";
 import Message from "../../ui/Message";
 import Button from "../../ui/Button";
-import CityDetailsRow from "./CityDetailsRow";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {

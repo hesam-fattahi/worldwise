@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import Sidebar from "../components/Sidebar";
-import Map from "../components/Map";
-import User from "../components/User";
-import Header from "../components/Header";
+import User from "../features/authentication/User";
+import Header from "../features/layout/Header";
+import Sidebar from "../features/layout/Sidebar";
+import Map from "../features/layout/Map";
 
 const AppLayout = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

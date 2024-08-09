@@ -9,12 +9,12 @@ import useFetchCityData from "../../hooks/useFetchCityData";
 import useUrlPosition from "../../hooks/useUrlPosition";
 import useAppContext from "../../hooks/useAppContext";
 
-import Button from "../../components/ui/Button";
-import Input from "../../components/ui/Input";
-import Form from "../../components/ui/Form";
-import FormRow from "../../components/ui/FormRow";
-import Loader from "../../components/ui/Loader";
-import Message from "../../components/ui/Message";
+import Button from "../../ui/Button";
+import Input from "../../ui/Input";
+import Form from "../../ui/Form";
+import FormRow from "../../ui/FormRow";
+import Loader from "../../ui/Loader";
+import Message from "../../ui/Message";
 
 const AddCityForm = () => {
   const {
