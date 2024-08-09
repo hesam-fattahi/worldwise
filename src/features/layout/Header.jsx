@@ -1,11 +1,10 @@
-import useAuth from "../hooks/useAuth";
-
 import {
   HiBars3BottomLeft,
   HiMiniXMark,
   HiOutlineArrowRightStartOnRectangle,
 } from "react-icons/hi2";
 
+import useAuth from "../../hooks/useAuth";
 import Button from "../../ui/Button";
 
 const Header = ({ isSidebarOpen, toggleSidebar }) => {

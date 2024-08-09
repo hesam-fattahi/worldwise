@@ -8,9 +8,9 @@ import {
   useMapEvent,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import useGeolocation from "../hooks/useGeolocation";
-import useAppContext from "../hooks/useAppContext";
-import useUrlPosition from "../hooks/useUrlPosition";
+import useGeolocation from "../../hooks/useGeolocation";
+import useAppContext from "../../hooks/useAppContext";
+import useUrlPosition from "../../hooks/useUrlPosition";
 import { useNavigate } from "react-router-dom";
 import Button from "../../ui/Button";
 
