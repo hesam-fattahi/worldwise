@@ -4,22 +4,33 @@ WorldWise is a single-page application (SPA) that allows users to explore cities
 
 You can download the starter files for the project from [here](https://github.com/jonasschmedtmann/ultimate-react-course/tree/main/11-worldwise/starter).
 
-## Table of Contents
+## Recent Updates
 
-- Features
-- Installation
-- Usage
-- Technologies Used
-- Contributing
-- License
+- **Tailwind**: The course used CSS for styling. I had initially used SCSS but updated it to Tailwind for practice (and I loved it).
 
+- **Project Structure**: Reorganized to a feature-based structure for better organization and maintainability. The course placed all components in a single components folder.
+
+- **Pages**: The course included pages for homepage, pricing, product, login, and app to practice React Router. Now the pages are simplified to include only the homepage and the app (and a nicer 404 page). The login is integrated into the homepage.Unnecessary pages like pricing and product are removed.
+
+- **Mobile Optimization**: The app is now mobile-friendly with improved responsiveness. The original code was not optimized for mobile.
 
 ## Features
 
 - **Interactive Map**: Utilizes Leaflet to display an interactive map with city markers.
-- **City Notes**: Users can click on a city, set dates, and add personal notes.
-- **Sidebar**: Displays a list of cities with saved notes.
+- **City Notes**: Users can click on a city on the map, set dates, and add personal notes.
+- **Sidebar**: Displays a list of cities with saved notes and date visited.
 - **Context API and useReducer**: State management for a seamless user experience.
+- **Mobile-Friendly**: Optimized for mobile devices.
+
+## Technologies Used
+
+- **React**: For building the user interface
+- **Vite**: For development and build tooling
+- **Tailwind CSS**: For styling the application
+- **Hero Icons 2** from react-icons: For providing icons
+- **React Hook Form**: For managing form inputs
+- **Leaflet**: For interactive maps
+- **JSON Server**: Used to create a fake REST API for fetching, posting, deleting data.
 
 ## Installation
 
@@ -46,14 +57,6 @@ Now you can visit http://localhost:9000/cities/ in your browser to see cities da
 `npm run dev`
 
 6. Visit http://localhost:5173 in your browser to explore WorldWise.
-
-## Technologies Used
-
-- React
-- SCSS (for styling)
-- Leaflet (for maps)
-- JSON Server (for fake API calls)
-- Vite (for project setup)
 
 ## Contributing
 
